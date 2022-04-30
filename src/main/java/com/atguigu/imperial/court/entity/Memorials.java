@@ -1,6 +1,6 @@
 package com.atguigu.imperial.court.entity;
 
-public class Memerials {
+public class Memorials {
 
     private Integer memorialsId;
     private String memorialsTitle;
@@ -18,10 +18,10 @@ public class Memerials {
     private String feedbackContent;
     private Integer memorialsStatus;
 
-    public Memerials() {
+    public Memorials() {
     }
 
-    public Memerials(Integer memorialsId, String memorialsTitle, String memorialsContent, String memorialsContentDigest, Integer memorialsEmp, String memorialsEmpName, String memorialsCreateTime, String feedbackTime, String feedbackContent, Integer memorialsStatus) {
+    public Memorials(Integer memorialsId, String memorialsTitle, String memorialsContent, String memorialsContentDigest, Integer memorialsEmp, String memorialsEmpName, String memorialsCreateTime, String feedbackTime, String feedbackContent, Integer memorialsStatus) {
         this.memorialsId = memorialsId;
         this.memorialsTitle = memorialsTitle;
         this.memorialsContent = memorialsContent;

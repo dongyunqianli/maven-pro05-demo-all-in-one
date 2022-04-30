@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>临时</h1>
+
+
+<p th:text="${session.loginInfo}"></p>
+<a th:href="@{/auth?method=logout}">退朝</a>
+</body>
+</html>
